@@ -1,0 +1,32 @@
+.progress-bar {
+    position: relative;
+    width: 100vw;
+    flex: 1;
+}
+
+.progress-text {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    user-select: none;
+    text-align: right;
+    z-index: 3;
+
+    text-shadow: 0 0 2px #ccc;
+}
+
+.number {
+    font-size: 1.6em;
+}
+
+.title {
+    font-size: 1.4em;
+}
+
+.progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transition: width 1s linear;
+}
